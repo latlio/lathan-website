@@ -3,6 +3,8 @@ import {
   faTwitter,
   faGithub,
   faInstagram,
+  faLinkedin,
+  faYoutube
 } from '@fortawesome/free-brands-svg-icons';
 import {
   faGlobe,
@@ -15,6 +17,8 @@ export const ICONS = [
   faTwitter,
   faGithub,
   faInstagram,
+  faLinkedin,
+  faYoutube,
   faGlobe,
   faEnvelope,
   faCoffee,
