@@ -2,8 +2,7 @@ require('dotenv').config();
 
 const { ACCESS_TOKEN, SPACE_ID } = process.env;
 
-module.exports = {
-  plugins = [
+const plugins = [
   {
     resolve: `gatsby-theme-mate`,
     options: {
@@ -11,5 +10,8 @@ module.exports = {
       spaceId: SPACE_ID,
     },
   },
-],
+];
+
+module.exports = {
+  plugins,
 };
