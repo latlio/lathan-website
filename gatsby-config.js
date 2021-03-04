@@ -1,13 +1,13 @@
 // require('dotenv').config();
 
 module.exports = {
-  plugins: [
+  plugins = [
   {
-    resolve: `gatsby-source-contentful`,
+    resolve: `gatsby-theme-mate`,
     options: {
-      spaceId: `ebg4nec2a5y1`,
-      accessToken: `d9mXUrB4X38qVz5mZVx7SYNf3zgM2Mhp4wLdH7NdPdg`,
+      accessToken: "d9mXUrB4X38qVz5mZVx7SYNf3zgM2Mhp4wLdH7NdPdg",
+      spaceId: "ebg4nec2a5y1",
     },
   },
-  ],
+],
 };
