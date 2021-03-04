@@ -1,6 +1,7 @@
-require('dotenv').config();
+// require('dotenv').config();
 
-plugins: [
+module.exports = {
+  plugins: [
   {
     resolve: `gatsby-source-contentful`,
     options: {
@@ -8,8 +9,5 @@ plugins: [
       accessToken: `d9mXUrB4X38qVz5mZVx7SYNf3zgM2Mhp4wLdH7NdPdg`,
     },
   },
-]
-
-module.exports = {
-  plugins,
+  ],
 };
